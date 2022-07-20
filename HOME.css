@@ -1,0 +1,466 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    position: relative;
+    top: 50px;
+    width: 1349.2px;
+    background-color: rgb(224, 224, 224);
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.topbutton {
+    background-color: #074B8C;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+}
+
+.topbutton .logo{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    width: 70px;
+    height: 74px;
+}
+
+.judulsatu{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 192px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.juduldua{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 195px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.topbuttonmenu .menu li{
+    display: inline-block;
+}
+
+.topbuttonmenu{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 10px;
+    
+}
+
+.topbutton .topbuttonmenu .menu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    line-height: 100px;
+    padding-bottom: 5px;
+    top: 0;
+    left: 0;
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+.topbuttonmenu .menu li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.topbutton .topbuttonmenu .ikonc{
+    position: relative;
+    top : -63.2px;
+    left: 432.2px;
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+    border-radius: 2px 2px 2px 2px;
+    
+}
+
+.topbutton .topbuttonmenu .ikonc:hover{
+    background-color: rgb(204, 204, 207)
+}
+
+.topbutton .topbuttonmenu .ikonc img{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.gambar{
+    width: 1349.2px;
+    height: 605px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    top: 5px;
+    background-position: -32px 20px;
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: #000000;
+  
+
+}
+
+.content-slide {
+    max-width: 1349.2px;
+    margin: auto;
+}
+
+.imgslide {
+    display: none;
+}
+
+.imgslide img {
+    vertical-align: middle;
+    width:100%;height: 657px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev{
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    color: #fafafa;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    right: 332px;
+    width: 100%;
+    text-align: center;
+}
+
+.text .textone{
+    position: relative;
+    left: 410px;
+    width: 500px;
+    height: 200px;
+}
+
+.text .textone p{
+    color: white;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: normal;
+    top: 10px;
+    position: relative;
+    left: 100px;
+    text-align: justify;
+}
+
+.content-slide .numberslide {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* resposive */
+
+@media screen and (max-width: 800px) {
+
+    .content-slide {
+        padding: 8px 50px 12px 50px;
+    }
+
+    .next {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+    }
+    
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }    
+    to {
+        opacity: 1;
+    }
+}
+
+.container .page {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page{
+    width: 1349.2px;
+}
+
+.page .dot {
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+    height: 10px;
+    width: 10px;
+    margin: auto;
+    background-color: #bbb;
+    margin-top: -100px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.page .active,
+.page .dot:hover {
+    background-color: #ffffff;
+}
+
+.kiri {
+    width: 670px;
+    margin-left: 80px;
+    margin-top: 70px;
+    float: left;
+}
+
+.kiri .judulkiri{
+    color: black;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    font-weight: bold;
+
+}
+
+.kiri p{
+    color: black;
+    font-size: 15px;
+    padding-top: 12px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kanan {
+    float: right;
+    margin-top: 95px;
+    width: 376.2px;
+    height: 536px;
+    margin-right: 70px;
+    border-radius: 12px;
+    background-color: rgb(41, 41, 41);
+
+}
+
+.kanan .judulkanan{
+    color: white;
+    margin-top: 20px;
+    font-size: 23px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+
+
+}
+
+.bottompol{
+    width: 1349.2px;
+    background-color: rgb(51, 51, 51);
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    bottom: 0;
+    padding-bottom: 12px;
+    padding-top: 20px;
+    padding-left: 87px;
+
+}
+
+.bottompol .judulbawah{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.bottompol .logodua{
+    position: absolute;
+    right: 75px;
+    top: 25px;
+}
+
+.bottompol .logodua .logogambar{
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.bottompol .logodua .satu{
+    background-image: url(../HOME/PinClipart.com_swimming-pool-clipart-black_3415668\ copy.png);
+}
+
+.bottompol .logodua .dua{
+    background-image: url(pngwing.com\ \(1\).png);
+}
+
+.bottompol .logodua .tiga{
+    background-image: url(pngwing.com\ \(2\).png);
+}
+
+.bottompol .logodua .empat{
+    background-image: url(pngwing.com\ \(3\).png);
+}
+
+.bottompol .contact{
+    position: absolute;
+    line-height: 12px;
+    top: 42px;
+    left: 0;
+}
+
+.bottompol .contact .duaa{
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottompol .contact .satuu{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
